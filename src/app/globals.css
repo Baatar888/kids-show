@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  --color-candy: #FF6B9D;
+  --color-sky: #4ECDC4;
+  --color-sun: #FFE66D;
+  --color-grape: #A855F7;
+  --color-mint: #6EE7B7;
+  --color-bg: #FFF9F0;
+  --color-dark: #2D1B69;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-bg);
+  font-family: 'Inter', system-ui, sans-serif;
+  color: var(--color-dark);
+}
+
+.bubble-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(3deg); }
+}
+
+.star-spin {
+  animation: spin 8s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.wiggle {
+  animation: wiggle 2s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: var(--color-candy); border-radius: 3px; }
+
+.chat-bubble-user {
+  background: linear-gradient(135deg, #FF6B9D, #A855F7);
+  color: white;
+  border-radius: 18px 18px 4px 18px;
+}
+
+.chat-bubble-admin {
+  background: white;
+  color: #2D1B69;
+  border-radius: 18px 18px 18px 4px;
+  border: 2px solid #FFE66D;
+}
