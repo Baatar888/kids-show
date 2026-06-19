@@ -219,7 +219,7 @@ export default function HomePage() {
                 <Phone size={20} className="text-pink-500" />
                 <div>
                   <p className="text-xs text-purple-500">Шууд холбогдох</p>
-                  <a href="tel:99001234" className="font-bold text-purple-800 hover:text-pink-500 transition-colors">9900-1234</a>
+                  <a href="tel:80990010" className="font-bold text-purple-800 hover:text-pink-500 transition-colors">8099-0010</a>
                 </div>
                 <div className="ml-auto text-sm text-purple-400">эсвэл хүсэлт илгээх ↓</div>
               </div>
@@ -234,11 +234,11 @@ export default function HomePage() {
             <h2 className="text-3xl font-black text-white mb-4">Бидэнтэй холбогдоорой 📞</h2>
             <p className="text-purple-300 mb-8">Ямар ч асуулт байсан туслахад бэлэн байна</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:99001234"
+              <a href="tel:80990010"
                 className="flex items-center justify-center gap-2 px-8 py-4 rounded-2xl font-bold text-white shadow-xl text-lg"
                 style={{ background: 'linear-gradient(135deg, #FF6B9D, #A855F7)' }}>
                 <Phone size={20} />
-                9900-1234
+                8099-0010
               </a>
               <a href="https://instagram.com" target="_blank"
                 className="flex items-center justify-center gap-2 px-8 py-4 rounded-2xl font-bold border-2 border-purple-500 text-purple-200 hover:border-pink-400 hover:text-pink-300 transition-colors text-lg">

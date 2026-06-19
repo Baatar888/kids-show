@@ -86,10 +86,10 @@ export default function PackagesPage() {
         <section className="py-16 text-center px-4" style={{ background: 'linear-gradient(135deg, #2D1B69, #4C1D95)' }}>
           <h2 className="text-2xl font-black text-white mb-3">Танд тохирсон хөтөлбөр байхгүй юу? 🤔</h2>
           <p className="text-purple-300 mb-6">Захиалгат хөтөлбөр боловсруулна. Холбогдоно уу!</p>
-          <a href="tel:99001234"
+          <a href="tel:80990010"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl font-bold text-white text-lg"
             style={{ background: 'linear-gradient(135deg, #FF6B9D, #A855F7)' }}>
-            <Phone size={20} /> 9900-1234
+            <Phone size={20} /> 8099-0010
           </a>
         </section>
       </main>

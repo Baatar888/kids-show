@@ -40,9 +40,9 @@ export default function Navbar() {
 
           {/* CTA */}
           <div className="hidden md:flex items-center gap-3">
-            <a href="tel:99001234" className="flex items-center gap-2 text-sm font-bold text-purple-700 hover:text-pink-600 transition-colors">
+            <a href="tel:80990010" className="flex items-center gap-2 text-sm font-bold text-purple-700 hover:text-pink-600 transition-colors">
               <Phone size={16} />
-              9900-1234
+              8099-0010
             </a>
             <a href="#order"
               className="px-4 py-2 rounded-full text-sm font-bold text-white shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5"
@@ -67,8 +67,8 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <a href="tel:99001234" className="flex items-center gap-2 mt-3 font-bold text-pink-600">
-            <Phone size={16} /> 9900-1234
+          <a href="tel:80990010" className="flex items-center gap-2 mt-3 font-bold text-pink-600">
+            <Phone size={16} /> 8099-0010
           </a>
           <a href="#order" onClick={() => setOpen(false)}
             className="mt-3 block text-center px-4 py-3 rounded-full font-bold text-white"

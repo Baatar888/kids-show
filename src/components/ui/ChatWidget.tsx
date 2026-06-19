@@ -86,7 +86,7 @@ export default function ChatWidget() {
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <a href="tel:99001234" className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-colors">
+              <a href="tel:80990010" className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-colors">
                 <Phone size={16} />
               </a>
               <button onClick={() => setOpen(false)} className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-colors">
@@ -114,9 +114,9 @@ export default function ChatWidget() {
                 💬 Чат эхлэх
               </button>
               <div className="mt-3 text-center text-xs text-purple-400">эсвэл шууд залгах</div>
-              <a href="tel:99001234"
+              <a href="tel:80990010"
                 className="mt-2 flex items-center justify-center gap-2 w-full py-2.5 rounded-xl border-2 border-purple-200 text-purple-700 font-semibold text-sm hover:border-purple-400 transition-colors">
-                <Phone size={14} /> 9900-1234
+                <Phone size={14} /> 8099-0010
               </a>
             </div>
           ) : (
